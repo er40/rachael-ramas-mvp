@@ -47,7 +47,7 @@ const ComingSoonSection = () => {
                   <Calendar className="w-5 h-5 text-primary" />
                   <span className="text-sm font-medium text-muted-foreground">Release</span>
                 </div>
-                <p className="text-lg font-semibold text-foreground">Summer 2026</p>
+                <p className="text-lg font-semibold text-foreground">June 2026</p>
               </div>
               
               <div className="bg-card/90 backdrop-blur-sm p-4 rounded-xl border border-border shadow-lg">
