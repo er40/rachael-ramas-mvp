@@ -9,27 +9,17 @@ import { faInstagram, faTiktok, faGoodreads, faImdb } from '@fortawesome/free-br
 const ContactSection = () => {
   const representationInfo = [
     {
-      category: "Literary Agent",
-      name: "Sarah Mitchell",
-      agency: "Mitchell Literary Agency",
-      email: "sarah@mitchellliterary.com",
-      phone: "(555) 123-4567",
-      icon: BookOpen
-    },
-    {
       category: "Film & TV Rights",
-      name: "David Chen",
-      agency: "Creative Artists Agency",
-      email: "dchen@caa.com",
-      phone: "(555) 234-5678",
+      name: "Alexandria Brown",
+      agency: "Rising Action Publishing",
+      email: "authorrelations@risingactionpublishingco.com",
       icon: Film
     },
     {
       category: "Publicity & Media Inquiries",
-      name: "Jane Doe",
-      agency: "Publicity Solutions Inc.",
-      email: "jane@publicitysolutions.com",
-      phone: "(555) 345-6789",
+      name: "Abigail Sharp",
+      agency: "Easy Like Sundaze",
+      email: "abby@easylikesundaze.com",
       icon: Newspaper
     }
   ];
