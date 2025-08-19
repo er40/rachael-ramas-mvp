@@ -9,10 +9,17 @@ import { faInstagram, faTiktok, faGoodreads, faImdb } from '@fortawesome/free-br
 const ContactSection = () => {
   const representationInfo = [
     {
-      category: "Film & TV Rights",
+      category: "Foreign Rights & General Book Information",
       name: "Alexandria Brown",
       agency: "Rising Action Publishing",
       email: "authorrelations@risingactionpublishingco.com",
+      icon: BookOpen
+    },
+    {
+      category: "Film & TV Rights",
+      name: "Katrina Escudero",
+      agency: "Sugar23",
+      email: "kescudero@sugar23.com",
       icon: Film
     },
     {
