@@ -95,6 +95,7 @@ const ContactSection = () => {
             
             <form 
               name="contact" 
+              netlify
               method="POST" 
               data-netlify="true" 
               netlify-honeypot="bot-field"
