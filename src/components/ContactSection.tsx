@@ -102,6 +102,7 @@ const ContactSection = () => {
               action="/success"
               className="space-y-6"
             >
+              <input type="hidden" name="form-name" value="contact" />
               {/* Honeypot field for spam protection */}
               <div className="hidden">
                 <label>
