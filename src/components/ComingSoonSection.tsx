@@ -97,7 +97,7 @@ const ComingSoonSection = () => {
               <h3 className="text-2xl font-bold text-foreground mb-4">
                 Join the Newsletter
               </h3>
-              <p className="text-muted-foreground mb-6 text-center">
+              <p className="text-muted-foreground mb-6">
                 Be among the first to read "Objects in Lakes" and get exclusive behind-the-scenes content about the writing process.
               </p>
               
