@@ -30,17 +30,17 @@ const retailers = [
   },
   { 
     name: "Hudson Booksellers", 
-    url: "httpss://www.hudsonbooksellers.com/book/9781998672387", 
+    url: "https://www.hudsonbooksellers.com/book/9781998672387", 
     logoSrc: "/lovable-uploads/hudson.svg" 
   },
   { 
     name: "Target", 
-    url: "httpss://www.target.com/s?searchTerm=9781998672387", 
+    url: "https://www.target.com/s?searchTerm=9781998672387", 
     logoSrc: "/lovable-uploads/target.svg" 
   },
   { 
     name: "Walmart", 
-    url: "httpss://www.walmart.com/search?query=9781998672387", 
+    url: "https://www.walmart.com/search?query=9781998672387", 
     logoSrc: "/lovable-uploads/walmart.svg" 
   },
 ];
