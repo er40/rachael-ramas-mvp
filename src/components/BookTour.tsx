@@ -9,7 +9,7 @@ const events = [
     month: 'JUN',
     day: '2',
     city: 'Boca Raton',
-    state: 'FL',
+    state: 'Florida',
     venue: 'Barnes & Noble',
     time: '5:00 PM',
     note: null,
@@ -20,7 +20,7 @@ const events = [
     month: 'JUN',
     day: '11',
     city: 'Ferndale',
-    state: 'MI',
+    state: 'Michigan',
     venue: 'Love & Other Books',
     time: '6:00 PM',
     note: null,
@@ -31,7 +31,7 @@ const events = [
     month: 'JUN',
     day: '17',
     city: 'Grand Rapids',
-    state: 'MI',
+    state: 'Michigan',
     venue: 'Schuler Books',
     time: '6:30 PM',
     note: null,
@@ -42,7 +42,7 @@ const events = [
     month: 'JUN',
     day: '23',
     city: 'Ann Arbor',
-    state: 'MI',
+    state: 'Michigan',
     venue: 'Literati',
     time: '6:30 PM',
     note: 'Co-author event with JL Lienthardt',
@@ -53,7 +53,7 @@ const events = [
     month: 'JUL',
     day: '16',
     city: 'Northville',
-    state: 'MI',
+    state: 'Michigan',
     venue: 'Barnes & Noble',
     time: '5:00 PM',
     note: null,
@@ -64,7 +64,7 @@ const events = [
     month: 'JUL',
     day: '19',
     city: 'Detroit',
-    state: 'MI',
+    state: 'Michigan',
     venue: 'Detroit Book Festival',
     time: null,
     note: null,
@@ -119,6 +119,7 @@ export default function BookTour() {
                   <MapPin className="w-4 h-4 text-red-400 flex-shrink-0" />
                   <div>
                     <span className="text-white font-bold text-base leading-tight">{event.city}</span>
+                    <span class="text-slate-400 font-bold text-base ml-1.5"> |</span>
                     <span className="text-slate-400 text-sm ml-1.5">{event.state}</span>
                   </div>
                 </div>
