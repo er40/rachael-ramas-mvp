@@ -146,11 +146,29 @@ export default function BookTour() {
                 {String(index + 1).padStart(2, '0')}
               </div>
             </div>
+
+            
           ))}
+        </div>
+
+        <div className="mt-14 text-center">
+          <div className="inline-flex flex-col items-center gap-4">
+            
+            <a
+              href="https://events.ticketleap.com/tickets/barnes-651130981/rachael-ramas-book-launch"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full px-8 py-3 bg-primary hover:bg-primary/90 text-primary-foreground text-lg text-white rounded-lg transition-colors duration-200 inline-block"
+            >
+              Reserve Your Spot
+            </a>
+          </div>
         </div>
 
         
       </div>
+
+      
     </section>
   );
 };
