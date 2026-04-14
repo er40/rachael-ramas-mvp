@@ -118,16 +118,16 @@ export default function BookTour() {
                 <div className="flex items-center gap-2 min-w-[180px]">
                   <MapPin className="w-4 h-4 text-red-400 flex-shrink-0" />
                   <div>
-                    <span className="text-white font-bold text-base leading-tight">{event.city}</span>
+                    <span className="text-white font-bold text-xl leading-tight">{event.city}</span>
                     <span class="text-slate-400 font-bold text-base ml-1.5"> |</span>
-                    <span className="text-slate-400 text-sm ml-1.5">{event.state}</span>
+                    <span className="text-slate-400 text-base ml-1.5">{event.state}</span>
                   </div>
                 </div>
 
                 <div className="flex-1 flex flex-col md:flex-row md:items-center gap-1 md:gap-4">
-                  <span className="text-slate-300 text-sm font-medium">{event.venue}</span>
+                  <span className="text-slate-300 text-xl font-medium">{event.venue}</span>
                   {event.note && (
-                    <span className="text-[#e8c84a]/80 text-xs bg-[#e8c44a]/10 border border-[#e8c44a]/20 rounded-full px-3 py-0.5 w-fit">
+                    <span className="text-[#e8c84a]/80 text-base bg-[#e8c44a]/10 border border-[#e8c44a]/20 rounded-full px-3 py-0.5 w-fit">
                       {event.note}
                     </span>
                   )}
@@ -136,7 +136,7 @@ export default function BookTour() {
                 {event.time && (
                   <div className="flex items-center gap-1.5 flex-shrink-0">
                     <Clock className="w-3.5 h-3.5 text-slate-500" />
-                    <span className="text-slate-400 text-sm font-medium">{event.time}</span>
+                    <span className="text-slate-400 text-xl font-medium">{event.time}</span>
                   </div>
                 )}
               </div>
