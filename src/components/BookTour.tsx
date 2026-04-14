@@ -85,15 +85,12 @@ export default function BookTour() {
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 py-20">
         <div className="text-center mb-16">
-          <p className="text-[#e8c84a] text-sm font-semibold tracking-[0.3em] uppercase mb-3">
-            Rachael Ramas
-          </p>
           <h1 className="text-5xl md:text-7xl font-black text-white leading-none mb-2 tracking-tight">
             Objects in Lakes
           </h1>
           <div className="flex items-center justify-center gap-4 my-5">
             <div className="h-px w-16 bg-gradient-to-r from-transparent to-red-500" />
-            <span className="text-red-400 text-xs font-bold tracking-[0.4em] uppercase">Book Tour</span>
+            <span className="text-red-400 text-xl font-bold tracking-[0.4em] uppercase">Book Tour</span>
             <div className="h-px w-16 bg-gradient-to-l from-transparent to-red-500" />
           </div>
           <p className="text-slate-400 text-lg mt-4">Come see me this summer</p>
