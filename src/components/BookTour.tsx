@@ -94,6 +94,20 @@ export default function BookTour() {
             <div className="h-px w-16 bg-gradient-to-l from-transparent to-red-500" />
           </div>
           <p className="text-slate-400 text-lg mt-4">Come see me this summer</p>
+
+          <div className="mt-7 text-center">
+          <div className="inline-flex flex-col items-center gap-4">
+            
+            <a
+              href="https://events.ticketleap.com/tickets/barnes-651130981/rachael-ramas-book-launch"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full px-8 py-3 bg-primary hover:bg-primary/90 text-primary-foreground text-lg text-white rounded-lg transition-colors duration-200 inline-block"
+            >
+              Reserve Your Spot For Free!
+            </a>
+          </div>
+        </div>
         </div>
 
         <div className="grid gap-3">
@@ -160,7 +174,7 @@ export default function BookTour() {
               rel="noopener noreferrer"
               className="w-full px-8 py-3 bg-primary hover:bg-primary/90 text-primary-foreground text-lg text-white rounded-lg transition-colors duration-200 inline-block"
             >
-              Reserve Your Spot
+              Reserve Your Spot For Free!
             </a>
           </div>
         </div>
