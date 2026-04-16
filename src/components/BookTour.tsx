@@ -13,6 +13,7 @@ const events = [
     venue: 'Barnes & Noble',
     time: '5:00 PM',
     note: null,
+    ticketUrl: 'https://events.ticketleap.com/tickets/barnes-651130981/rachael-ramas-book-launch',
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ const events = [
     venue: 'Love & Other Books',
     time: '6:00 PM',
     note: null,
+    ticketUrl: null,
   },
   {
     id: 3,
@@ -35,6 +37,7 @@ const events = [
     venue: 'Schuler Books',
     time: '6:30 PM',
     note: null,
+    ticketUrl: null,
   },
   {
     id: 4,
@@ -46,6 +49,7 @@ const events = [
     venue: 'Literati',
     time: '6:30 PM',
     note: 'Co-author event with JL Lienthardt',
+    ticketUrl: null,
   },
   {
     id: 5,
@@ -57,6 +61,7 @@ const events = [
     venue: 'Barnes & Noble',
     time: '5:00 PM',
     note: null,
+    ticketUrl: null,
   },
   {
     id: 6,
@@ -68,6 +73,7 @@ const events = [
     venue: 'Detroit Book Festival',
     time: null,
     note: null,
+    ticketUrl: null,
   },
 ];
 
@@ -85,7 +91,7 @@ export default function BookTour() {
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 py-20">
         <div className="text-center mb-16">
-          <h1 className="text-5xl md:text-7xl font-black text-white leading-none mb-2 tracking-tight">
+          <h1 className="text-5xl md:text-5xl font-black text-white leading-none mb-2 tracking-tight">
             Objects in Lakes
           </h1>
           <div className="flex items-center justify-center gap-4 my-5">
@@ -93,21 +99,9 @@ export default function BookTour() {
             <span className="text-red-400 text-xl font-bold tracking-[0.4em] uppercase">Book Tour</span>
             <div className="h-px w-16 bg-gradient-to-l from-transparent to-red-500" />
           </div>
-          <p className="text-slate-400 text-lg mt-4">Come see me this summer</p>
+          <p className="text-slate-400 text-2xl mt-4">Come see me this summer!</p>
 
-          <div className="mt-7 text-center">
-          <div className="inline-flex flex-col items-center gap-4">
-            
-            <a
-              href="https://events.ticketleap.com/tickets/barnes-651130981/rachael-ramas-book-launch"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full px-8 py-3 bg-primary hover:bg-primary/90 text-primary-foreground text-lg text-white rounded-lg transition-colors duration-200 inline-block"
-            >
-              Reserve Your Spot For Free!
-            </a>
-          </div>
-        </div>
+          
         </div>
 
         <div className="grid gap-3">
@@ -144,6 +138,18 @@ export default function BookTour() {
                   )}
                 </div>
 
+
+                {event.ticketUrl && (
+                  <a
+                    href={event.ticketUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-8 py-3 bg-primary hover:bg-primary/90 text-primary-foreground text-lg text-white rounded-lg transition-colors duration-200 flex-shrink-0"
+                  >
+                    Reserve
+                  </a>
+                )}
+
                 {event.time && (
                   <div className="flex items-center gap-1.5 flex-shrink-0">
                     <Clock className="w-3.5 h-3.5 text-slate-500" />
@@ -151,6 +157,8 @@ export default function BookTour() {
                   </div>
                 )}
               </div>
+
+          
 
               
 
@@ -165,19 +173,7 @@ export default function BookTour() {
           ))}
         </div>
 
-        <div className="mt-14 text-center">
-          <div className="inline-flex flex-col items-center gap-4">
-            
-            <a
-              href="https://events.ticketleap.com/tickets/barnes-651130981/rachael-ramas-book-launch"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full px-8 py-3 bg-primary hover:bg-primary/90 text-primary-foreground text-lg text-white rounded-lg transition-colors duration-200 inline-block"
-            >
-              Reserve Your Spot For Free!
-            </a>
-          </div>
-        </div>
+        
 
         
       </div>
