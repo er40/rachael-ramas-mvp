@@ -25,7 +25,7 @@ const events = [
     venue: 'Love & Other Books',
     time: '6:00 PM',
     note: null,
-    ticketUrl: null,
+    ticketUrl: 'https://events.humanitix.com/objects-in-lakes-release-party',
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const events = [
     city: 'Grand Rapids',
     state: 'Michigan',
     venue: 'Schuler Books',
-    time: '6:30 PM',
+    time: '6:00 PM',
     note: null,
     ticketUrl: null,
   },
@@ -144,14 +144,14 @@ export default function BookTour() {
                     href={event.ticketUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-8 py-3 bg-primary hover:bg-primary/90 text-primary-foreground text-lg text-white rounded-lg transition-colors duration-200 flex-shrink-0"
+                    className="order-4 md:order-3 w-36 md:w-auto px-8 py-3 bg-primary hover:bg-primary/90 text-primary-foreground text-center text-lg text-white rounded-lg transition-colors duration-200 flex-shrink-0"
                   >
                     Reserve
                   </a>
                 )}
 
                 {event.time && (
-                  <div className="flex items-center gap-1.5 flex-shrink-0">
+                  <div className="order-3 md:order-4 flex items-center gap-1.5 flex-shrink-0">
                     <Clock className="w-3.5 h-3.5 text-slate-500" />
                     <span className="text-slate-400 text-xl font-medium">{event.time}</span>
                   </div>
