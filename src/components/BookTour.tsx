@@ -37,7 +37,7 @@ const events = [
     venue: 'Schuler Books',
     time: '6:00 PM',
     note: null,
-    ticketUrl: null,
+    ticketUrl: 'https://schulerbooks.com/event/signing-rachael-ramas',
   },
   {
     id: 4,
