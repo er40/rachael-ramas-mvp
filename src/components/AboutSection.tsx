@@ -18,7 +18,7 @@ const AboutSection = () => {
               </p>
               
               <p>
-                Her debut thriller, <span class="italic">Objects in Lakes</span>, is slated for release in May 2026 through Simon & Schuster, followed by her second novel, <span class="italic">Meanwhile, in Florida</span>, set to be released in April 2027.
+                Her debut thriller, <span class="italic">Objects in Lakes</span>, was released in June 2026 through Simon & Schuster, followed by her second novel, <span class="italic">Final Girls Weekend</span>, set to be released in Fall 2027.
               </p>
               
               <p>

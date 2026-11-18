@@ -61,7 +61,7 @@ const ComingSoonSection = () => {
       <div className="container mx-auto max-w-6xl px-4 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl lg:text-5xl font-bold text-slate-50 mb-4">
-            Available for Pre-order Now!
+            Available Now!
           </h2>
         </div>
 
@@ -85,7 +85,7 @@ const ComingSoonSection = () => {
             {/* NEW: Pre-order Section */}
             <div className="mt-8 w-full max-w-lg text-left">
               <h3 className="text-2xl font-bold text-slate-50 mb-6">
-                Pre-order Available Now
+                Available Now
               </h3>
               <div className="grid grid-cols-3 sm:grid-cols-4 gap-4">
                 {retailers.map((retailer) => (

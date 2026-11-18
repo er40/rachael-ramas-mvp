@@ -9,21 +9,14 @@ import { faInstagram, faTiktok, faGoodreads, faImdb } from '@fortawesome/free-br
 const ContactSection = () => {
   const representationInfo = [
     {
-      category: "Foreign Rights & General Book Information",
-      name: "Alexandria Brown",
-      agency: "Rising Action Publishing",
-      email: "authorrelations@risingactionpublishingco.com",
+      category: "For Rights Inquires, Please Contact:",
+      name: "Elizabeth Winick Rubenstein",
+      agency: "Mcintosh and Otis",
+      email: "ewinick@mcintoshandotis.com",
       icon: BookOpen
     },
     {
-      category: "Film & TV Rights",
-      name: "Katrina Escudero",
-      agency: "Sugar23",
-      email: "kescudero@sugar23.com",
-      icon: Film
-    },
-    {
-      category: "Publicity & Media Inquiries",
+      category: "Publicity & Media Inquiries:",
       name: "Abigail Sharp",
       agency: "Easy Like Sundaze",
       email: "abby@easylikesundaze.com",
